@@ -3,6 +3,8 @@ runner = "espflash flash --monitor --chip esp32 --log-format defmt"
 
 [env]
 DEFMT_LOG="info"
+WIFI_SSID = "XXXXXXX"
+WIFI_PASSWORD = "XXXXXXXXX"
 
 [build]
 rustflags = [
